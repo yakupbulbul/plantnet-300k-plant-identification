@@ -7,7 +7,7 @@ yakup_bulbul_final_report (2).pdf
 # Presentation video (do not publish)
 final_presentation.mp4
 
-# Keep main branch AI-focused; mobile app lives on a separate branch
+# Keep main branch model-focused; mobile app lives on a separate branch
 plant_detection_mobile/
 
 # Dataset images are large; keep structure only
@@ -17,6 +17,9 @@ plantnet_300K/images_test/**
 !plantnet_300K/images_train/.gitkeep
 !plantnet_300K/images_val/.gitkeep
 !plantnet_300K/images_test/.gitkeep
+# Large derived files (do not publish)
+plantnet_300K/metaData/*.idx
+plantnet_300K/metaData/*.pkl
 
 # Secrets (never commit)
 **/google-services.json
