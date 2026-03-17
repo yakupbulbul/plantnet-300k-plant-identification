@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+
+# Private report (do not publish)
+yakup_bulbul_final_report (2).pdf
+
+# Keep main branch AI-focused; mobile app lives on a separate branch
+plant_detection_mobile/
+
+# Dataset images are large; keep structure only
+plantnet_300K/images_train/**
+plantnet_300K/images_val/**
+plantnet_300K/images_test/**
+!plantnet_300K/images_train/.gitkeep
+!plantnet_300K/images_val/.gitkeep
+!plantnet_300K/images_test/.gitkeep
+
+# Secrets (never commit)
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+
+# Python cache
+__pycache__/
+
+# Flutter / mobile secrets and local metadata
+**/firebase_app_id_file.json
+**/.metadata
+**/key.properties
+**/*.keystore
+**/*.jks
+
+# iOS pods (generated)
+plant_detection_mobile/ios/Pods/
