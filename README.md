@@ -86,9 +86,9 @@ The project processes plant images into feature embeddings, fuses representation
   ```
 
 **How to Use This Repo**
-1. Read `yakup_bulbul_final_report_public.pdf` for full methodology and references.
-2. Place your dataset under `plantnet_300K/` (or set `PLANTNET_DATASET_DIR`).
-3. If you publish dataset images, ensure you have redistribution rights and update `.gitignore` accordingly.
+1. Read `yakup_bulbul_final_report_public.pdf` for the full methodology, system design, and references.
+2. Place the PlantNet-300K dataset under `plantnet_300K/`, or set `PLANTNET_DATASET_DIR` to your local dataset path.
+3. Download optional large metadata and index files from the linked Drive folder if you want to reproduce the full retrieval workflow.
 
 **Contact**
 If you want the mobile app code or have questions, email:
