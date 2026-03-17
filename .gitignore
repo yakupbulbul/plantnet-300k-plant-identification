@@ -18,6 +18,7 @@ plantnet_300K/images_test/**
 !plantnet_300K/images_val/.gitkeep
 !plantnet_300K/images_test/.gitkeep
 # Large derived files (do not publish)
+plantnet_300K/metaData/metadata.json
 plantnet_300K/metaData/*.idx
 plantnet_300K/metaData/*.pkl
 

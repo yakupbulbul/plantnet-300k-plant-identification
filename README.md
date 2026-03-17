@@ -31,7 +31,8 @@ The project processes plant images into feature embeddings, fuses representation
 - Long-tailed distribution and label uncertainty (per report).
 - Local split layout: `plantnet_300K/images_train`, `plantnet_300K/images_val`, `plantnet_300K/images_test`.
 - This branch keeps only the folder structure; images are excluded.
-- Metadata files are included under `plantnet_300K/metaData/` (index files are excluded due to size).
+- This repo keeps lightweight metadata only.
+- Larger metadata and index artifacts are referenced through the Drive folder in the external files section.
 - Dataset reference (from original dataset README): Zenodo DOI
   ```text
   https://doi.org/10.5281/zenodo.4726653
@@ -51,13 +52,14 @@ The project processes plant images into feature embeddings, fuses representation
 **Repository Contents**
 - `model/` feature extraction, indexing, and API code.
 - `plantnet_300K/` dataset structure and dataset README.
-- `plantnet_300K/metaData/` includes `names.json`, `metadata.json`, and `dataWithImages.csv`.
+- `plantnet_300K/metaData/` includes `names.json` and `dataWithImages.csv`.
 - `yakup_bulbul_final_report_public.pdf` publishable report (personal details removed).
 - `.gitignore` configured to exclude dataset images and private files.
 
 **Not Included**
 - Mobile application code.
 - Dataset images.
+- Large metadata artifacts provided separately through Drive.
 - FAISS index files (e.g., `indexedImagesFeaturesData.idx`) and large derived binaries.
 - Presentation video and the private report.
 
@@ -75,6 +77,7 @@ The project processes plant images into feature embeddings, fuses representation
 3. Run the API: `python3 model/app.py`.
 
 **External Files (Optional Download)**
+- `metadata.json` is not included in this repository to keep the GitHub version lightweight.
 - `indexedImagesFeaturesData.idx` (precomputed FAISS index) is not included due to size.
 - The original dataset README is in the same folder and points to the official dataset source.
 - If you need the dataset, follow the instructions in that README.
