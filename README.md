@@ -90,11 +90,6 @@ The project processes plant images into feature embeddings, fuses representation
 2. Place your dataset under `plantnet_300K/` (or set `PLANTNET_DATASET_DIR`).
 3. If you publish dataset images, ensure you have redistribution rights and update `.gitignore` accordingly.
 
-**Privacy and Publishing**
-- Do not publish `yakup_bulbul_final_report (2).pdf` because it contains personal and institutional details.
-- The presentation video is kept local and is not included in the repository.
-- Verify dataset redistribution rights before publishing images.
-
 **Contact**
 If you want the mobile app code or have questions, email:
 `yakupbulbul.vo@gmail.com`
