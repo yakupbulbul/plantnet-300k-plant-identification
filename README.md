@@ -30,7 +30,7 @@ The project processes plant images into feature embeddings, fuses representation
 - PlantNet-300K with approximately 306,146 images and 1,081 species.
 - Long-tailed distribution and label uncertainty (per report).
 - Local split layout: `plantnet_300K/images_train`, `plantnet_300K/images_val`, `plantnet_300K/images_test`.
-- This branch keeps only the folder structure; images are excluded.
+- This repository keeps only the folder structure; images are excluded.
 - This repo keeps lightweight metadata only.
 - Larger metadata and index artifacts are referenced through the Drive folder in the external files section.
 - Dataset reference (from original dataset README): Zenodo DOI
@@ -54,7 +54,6 @@ The project processes plant images into feature embeddings, fuses representation
 - `plantnet_300K/` dataset structure and dataset README.
 - `plantnet_300K/metaData/` includes `names.json` and `dataWithImages.csv`.
 - `yakup_bulbul_final_report_public.pdf` publishable report (personal details removed).
-- `.gitignore` configured to exclude dataset images and private files.
 
 **Not Included**
 - Mobile application code.
@@ -86,11 +85,6 @@ The project processes plant images into feature embeddings, fuses representation
   https://drive.google.com/drive/folders/1y1IaxsqYia8l5q87fd9z4dJW5PjRRNc9
   ```
 
-**GitHub Upload (Main Branch Only)**
-1. `git status` and confirm dataset images are not listed.
-2. `git remote add origin <YOUR_GITHUB_REPO_URL>`
-3. `git push -u origin main`
-
 **How to Use This Repo**
 1. Read `yakup_bulbul_final_report_public.pdf` for full methodology and references.
 2. Place your dataset under `plantnet_300K/` (or set `PLANTNET_DATASET_DIR`).
@@ -106,4 +100,4 @@ If you want the mobile app code or have questions, email:
 `yakupbulbul.vo@gmail.com`
 
 **License**
-Add a license file before publishing.
+No license file is included in this version of the repository. Reuse rights are not granted unless a license is added later.
