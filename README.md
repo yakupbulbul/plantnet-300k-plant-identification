@@ -30,7 +30,7 @@ Identify a plant from a user-submitted image and return the biological species n
 **Repository Contents**
 - `plantnet_300K/` dataset structure and dataset README.
 - `yakup_bulbul_final_report_public.pdf` publishable report (personal details removed).
-- `final_presentation.mp4` project presentation.
+ 
 
 **Branches**
 - `main` AI-focused, publishable assets and documentation.
@@ -41,6 +41,7 @@ Training and inference code is not included in this branch yet. The full methodo
 
 **Privacy Notes**
 - Do not publish `yakup_bulbul_final_report (2).pdf` because it contains personal and institutional details.
+- The presentation video is kept local and is not included in the repository.
 - Verify dataset redistribution rights before publishing images.
 
 **License**
